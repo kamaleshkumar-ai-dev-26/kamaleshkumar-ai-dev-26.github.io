@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kamaleshkumar M — AI Engineer</title>
+  <meta name="description" content="AI Engineer specialising in LLM-powered multi-agent systems, conversational AI, and enterprise integrations." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════ NAV ═══════════════ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">KM<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section id="home" class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+
+    <div class="hero-content">
+      <div class="hero-tag reveal">
+        <span class="tag-dot"></span> Open to opportunities
+      </div>
+
+      <h1 class="hero-title reveal">
+        Building AI Systems<br />
+        <span class="gradient-text">That Actually Work</span><br />
+        In Production.
+      </h1>
+
+      <p class="hero-sub reveal">
+        AI Engineer crafting LLM-powered multi-agent systems, conversational interfaces,<br class="br-desktop" />
+        and enterprise integrations at scale — currently at Greeno Tech Solutions.
+      </p>
+
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+
+      <!-- Terminal widget -->
+      <div class="terminal reveal">
+        <div class="terminal-bar">
+          <span class="t-dot t-red"></span>
+          <span class="t-dot t-yellow"></span>
+          <span class="t-dot t-green"></span>
+          <span class="t-title">agent_session.py</span>
+        </div>
+        <div class="terminal-body">
+          <div class="t-line"><span class="t-dim"># HR AI Agent — Production</span></div>
+          <div class="t-line"><span class="t-purple">agent</span> = <span class="t-cyan">HRConversationalAgent</span>(</div>
+          <div class="t-line t-indent">llm=<span class="t-green">"claude-3-5-sonnet"</span>,</div>
+          <div class="t-line t-indent">tools=<span class="t-orange">[query_employee, process_doc, trigger_workflow]</span>,</div>
+          <div class="t-line t-indent">memory=<span class="t-cyan">ConversationBuffer</span>(k=<span class="t-orange">20</span>)</div>
+          <div class="t-line">)</div>
+          <div class="t-line">&nbsp;</div>
+          <div class="t-line"><span class="t-purple">response</span> = agent.<span class="t-cyan">run</span>(<span class="t-green">"Show leave balance for team"</span>)</div>
+          <div class="t-line"><span class="t-dim"># → Live ERP data via Infor HCM API</span></div>
+          <div class="t-line t-output"><span class="t-green">✓</span> Response in <span class="t-cyan">1.2s</span> · 47 concurrent users served</div>
+          <div class="t-line"><span class="t-cursor">█</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats bar -->
+    <div class="hero-stats reveal">
+      <div class="stat">
+        <span class="stat-num">2+</span>
+        <span class="stat-label">Years Production AI</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">2</span>
+        <span class="stat-label">AI Agents Deployed</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">9.37</span>
+        <span class="stat-label">CGPA</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">∞</span>
+        <span class="stat-label">Concurrent Users</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ ABOUT ═══════════════ -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-label reveal">About Me</div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2 class="section-heading">I turn complex enterprise<br /><span class="gradient-text">workflows into conversations.</span></h2>
+          <p>
+            I'm an AI Engineer with hands-on production experience building LLM-powered systems that serve real enterprise users every day. My work sits at the intersection of conversational AI, backend engineering, and cloud infrastructure.
+          </p>
+          <p>
+            At Greeno Tech Solutions, I've designed and shipped two production AI chatbots that replaced manual ERP navigation with natural language — serving multiple concurrent users in live enterprise environments. I own the full stack: agent brain, backend APIs, cloud infra, and live traffic.
+          </p>
+          <p>
+            I'm passionate about making AI systems that are not just impressive demos, but reliable tools that businesses can depend on.
+          </p>
+
+          <div class="about-chips">
+            <span class="chip">🤖 Agentic AI</span>
+            <span class="chip">🏗️ System Design</span>
+            <span class="chip">☁️ AWS Deployment</span>
+            <span class="chip">⚡ High Concurrency</span>
+            <span class="chip">🔗 Enterprise APIs</span>
+          </div>
+
+          <div class="about-links">
+            <a href="https://www.linkedin.com/in/kamaleshkumar" target="_blank" class="about-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+              LinkedIn
+            </a>
+            <a href="mailto:kamaleshkumar.dev@gmail.com" class="about-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              Email Me
+            </a>
+            <a href="tel:+917708146318" class="about-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              +91 7708146318
+            </a>
+          </div>
+        </div>
+
+        <div class="about-visual reveal">
+          <div class="about-card-stack">
+            <div class="about-card ac-main">
+              <div class="ac-icon">🧠</div>
+              <div class="ac-label">LLM Orchestration</div>
+              <div class="ac-sub">Multi-agent · Tool-use · Memory</div>
+            </div>
+            <div class="about-card ac-secondary">
+              <div class="ac-icon">🔧</div>
+              <div class="ac-label">Backend Engineering</div>
+              <div class="ac-sub">Python · Django · Async APIs</div>
+            </div>
+            <div class="about-card ac-tertiary">
+              <div class="ac-icon">☁️</div>
+              <div class="ac-label">Cloud & Infra</div>
+              <div class="ac-sub">AWS · Docker · Nginx</div>
+            </div>
+            <div class="about-card ac-fourth">
+              <div class="ac-icon">🏢</div>
+              <div class="ac-label">Enterprise Integration</div>
+              <div class="ac-sub">Infor HCM · SCM · ION</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ EXPERIENCE ═══════════════ -->
+  <section id="experience" class="experience section">
+    <div class="container">
+      <div class="section-label reveal">Experience</div>
+      <h2 class="section-heading reveal">Where I've <span class="gradient-text">Built Things</span></h2>
+
+      <div class="exp-timeline">
+        <div class="exp-card reveal">
+          <div class="exp-left">
+            <div class="exp-company">Greeno Tech Solutions Pvt Ltd</div>
+            <div class="exp-role">Software Engineer — AI, ERP & Backend</div>
+            <div class="exp-period">Jan 2024 – Present · Coimbatore, India</div>
+            <div class="exp-badge">Current</div>
+          </div>
+          <div class="exp-right">
+            <div class="exp-domain">
+              <h4>🤖 AI Agent Development</h4>
+              <ul>
+                <li>Built and shipped <strong>two production AI chatbots</strong> (HR Manager + Employee Self-Service) handling multiple concurrent users, replacing manual ERP navigation with natural language conversations.</li>
+                <li>Engineered LLM agent orchestration with <strong>dynamic tool selection</strong> — intent detection, operation routing, live API execution, and structured responses — all within a single conversation turn.</li>
+                <li>Designed <strong>multi-turn dialogue</strong> layer with per-user context, follow-up handling, and coherent session management across messages.</li>
+                <li>Built high-concurrency Python/Django backend services supporting <strong>real-time AI responses</strong>, secure auth, and simultaneous API calls without performance degradation.</li>
+                <li>Implemented <strong>async background processing pipelines</strong> for document and workflow jobs — users get instant chat responses while heavy tasks run silently and update automatically.</li>
+                <li>Deployed both agents on <strong>AWS</strong> with independent isolated services, structured monitoring, and automatic failure recovery.</li>
+                <li>Integrated directly with <strong>Infor HCM enterprise APIs</strong> for live employee data queries, HR document processing, and real-time workflow triggering via chat.</li>
+              </ul>
+            </div>
+            <div class="exp-domain">
+              <h4>🏗️ ERP Module Development</h4>
+              <ul>
+                <li>Developed end-to-end customer-facing <strong>ERP modules for Infor HCM</strong> (Loan & Benefits) — backend logic, UI, and automated notifications.</li>
+                <li>Built full <strong>CRUD API suites</strong> with Swagger documentation for third-party enterprise connectivity.</li>
+                <li>Designed <strong>Infor ION integration flows</strong> for event-driven data exchange across HCM, SCM, and external systems.</li>
+                <li>Developed <strong>Supply Chain Management modules</strong> end-to-end and managed large-scale data integrations via Infor Data Lake.</li>
+              </ul>
+            </div>
+            <div class="exp-tags">
+              <span>Python</span><span>Django</span><span>Anthropic Claude API</span><span>AWS</span>
+              <span>Infor HCM</span><span>Redis</span><span>Celery</span><span>PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PROJECTS ═══════════════ -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <div class="section-label reveal">Projects</div>
+      <h2 class="section-heading reveal">Things I've <span class="gradient-text">Shipped to Production</span></h2>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon">🤖</div>
+            <div class="project-status">Production · 2024</div>
+          </div>
+          <h3 class="project-title">HR Conversational AI Agent</h3>
+          <p class="project-desc">
+            HR managers converse naturally to query employee records, process documents, and trigger workflows — no more complex ERP screen navigation. Designed for multiple concurrent HR users.
+          </p>
+          <div class="project-highlights">
+            <div class="ph-item">
+              <span class="ph-icon">⚡</span>
+              <span>Autonomous intent detection with dynamic tool routing from a library of HR operations</span>
+            </div>
+            <div class="ph-item">
+              <span class="ph-icon">🔄</span>
+              <span>Background document processing fully decoupled from chat — zero UX blocking</span>
+            </div>
+            <div class="ph-item">
+              <span class="ph-icon">🛡️</span>
+              <span>Full error handling, fallback logic, and structured human-readable responses</span>
+            </div>
+          </div>
+          <div class="project-stack">
+            <span>Python</span><span>Django</span><span>Anthropic Claude API</span><span>LLM Orchestration</span><span>AWS</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon">👤</div>
+            <div class="project-status">Production · 2024</div>
+          </div>
+          <h3 class="project-title">Employee Self-Service AI Agent</h3>
+          <p class="project-desc">
+            Employees ask about leave balances, payslips, and department info in plain language and get instant accurate answers — no training required, no complex screens to navigate.
+          </p>
+          <div class="project-highlights">
+            <div class="ph-item">
+              <span class="ph-icon">👥</span>
+              <span>Independent conversation context per user — fully stateful, personalised chat at scale</span>
+            </div>
+            <div class="ph-item">
+              <span class="ph-icon">🔒</span>
+              <span>Complete service isolation — separate queues and data stores alongside HR agent</span>
+            </div>
+            <div class="ph-item">
+              <span class="ph-icon">📡</span>
+              <span>Zero cross-agent interference under concurrent load via Redis-backed session management</span>
+            </div>
+          </div>
+          <div class="project-stack">
+            <span>Python</span><span>Django</span><span>LLM Orchestration</span><span>REST APIs</span><span>Redis</span><span>AWS</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon">🏢</div>
+            <div class="project-status">Enterprise · 2024</div>
+          </div>
+          <h3 class="project-title">Infor HCM ERP Modules</h3>
+          <p class="project-desc">
+            End-to-end customer-facing ERP modules for Loan and Benefits management within Infor HCM, including backend business logic, UI implementation, and automated notifications.
+          </p>
+          <div class="project-highlights">
+            <div class="ph-item">
+              <span class="ph-icon">🔌</span>
+              <span>Full CRUD API suites with Swagger documentation for third-party enterprise connectivity</span>
+            </div>
+            <div class="ph-item">
+              <span class="ph-icon">🔁</span>
+              <span>Infor ION integration flows for event-driven data exchange across HCM, SCM, and external systems</span>
+            </div>
+            <div class="ph-item">
+              <span class="ph-icon">📊</span>
+              <span>Large-scale data integrations via Infor Data Lake for business reporting</span>
+            </div>
+          </div>
+          <div class="project-stack">
+            <span>Infor HCM</span><span>Infor ION</span><span>Data Lake</span><span>SCM</span><span>REST API</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ SKILLS ═══════════════ -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <div class="section-label reveal">Skills</div>
+      <h2 class="section-heading reveal">My <span class="gradient-text">Tech Stack</span></h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-group reveal">
+          <div class="sg-header">
+            <span class="sg-icon">🧠</span>
+            <h4>AI & LLM</h4>
+          </div>
+          <div class="sg-items">
+            <span>LLM Agent Orchestration</span>
+            <span>Conversational AI</span>
+            <span>Tool-use & Function Calling</span>
+            <span>Prompt Engineering</span>
+            <span>Multi-turn Dialogue</span>
+            <span>Agentic AI Systems</span>
+            <span>Streaming Inference</span>
+            <span>Anthropic Claude API</span>
+            <span>Generative AI</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="sg-header">
+            <span class="sg-icon">⚙️</span>
+            <h4>Backend & APIs</h4>
+          </div>
+          <div class="sg-items">
+            <span>Python</span>
+            <span>Django</span>
+            <span>Django REST Framework</span>
+            <span>REST API Design</span>
+            <span>Async Task Processing</span>
+            <span>High-concurrency Services</span>
+            <span>OAuth2 & JWT</span>
+            <span>Redis</span>
+            <span>Celery</span>
+            <span>WebSockets</span>
+            <span>Swagger / OpenAPI</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="sg-header">
+            <span class="sg-icon">☁️</span>
+            <h4>Cloud & Infrastructure</h4>
+          </div>
+          <div class="sg-items">
+            <span>AWS EC2</span>
+            <span>Multi-service Deployment</span>
+            <span>Service Isolation</span>
+            <span>Linux Administration</span>
+            <span>Gunicorn</span>
+            <span>Nginx</span>
+            <span>Production Monitoring</span>
+            <span>Structured Logging</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="sg-header">
+            <span class="sg-icon">🏢</span>
+            <h4>ERP & Enterprise</h4>
+          </div>
+          <div class="sg-items">
+            <span>Infor HCM</span>
+            <span>Infor SCM</span>
+            <span>Infor ION Integration</span>
+            <span>Infor Data Lake</span>
+            <span>ERP Module Development</span>
+            <span>Enterprise Workflow Automation</span>
+            <span>ION API</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="sg-header">
+            <span class="sg-icon">🗄️</span>
+            <h4>Databases & Languages</h4>
+          </div>
+          <div class="sg-items">
+            <span>PostgreSQL</span>
+            <span>SQLite</span>
+            <span>Redis</span>
+            <span>Python</span>
+            <span>JavaScript</span>
+            <span>SQL</span>
+            <span>Java</span>
+            <span>HTML & CSS</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CONTACT ═══════════════ -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="contact-inner reveal">
+        <div class="section-label">Contact</div>
+        <h2 class="section-heading">Let's Build Something<br /><span class="gradient-text">Remarkable Together</span></h2>
+        <p class="contact-sub">
+          I'm currently open to new opportunities — whether it's a full-time AI Engineering role, a contract, or an interesting collaboration. Drop me a line.
+        </p>
+
+        <div class="contact-cards">
+          <a href="mailto:kamaleshkumar.dev@gmail.com" class="contact-card">
+            <div class="cc-icon">📧</div>
+            <div class="cc-label">Email</div>
+            <div class="cc-value">kamaleshkumar.dev@gmail.com</div>
+          </a>
+          <a href="tel:+917708146318" class="contact-card">
+            <div class="cc-icon">📱</div>
+            <div class="cc-label">Phone</div>
+            <div class="cc-value">+91 7708146318</div>
+          </a>
+          <a href="https://www.linkedin.com/in/kamaleshkumar" target="_blank" class="contact-card">
+            <div class="cc-icon">💼</div>
+            <div class="cc-label">LinkedIn</div>
+            <div class="cc-value">Connect with me</div>
+          </a>
+          <div class="contact-card">
+            <div class="cc-icon">📍</div>
+            <div class="cc-label">Location</div>
+            <div class="cc-value">Coimbatore, India</div>
+          </div>
+        </div>
+
+        <a href="mailto:kamaleshkumar.dev@gmail.com" class="btn btn-primary btn-large">
+          Send Me an Email →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">KM<span class="dot">.</span></span>
+        <span class="footer-copy">© 2024 Kamaleshkumar M. Built with HTML, CSS & JS.</span>
+        <div class="footer-links">
+          <a href="#home">Top ↑</a>
+          <a href="https://www.linkedin.com/in/kamaleshkumar" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
