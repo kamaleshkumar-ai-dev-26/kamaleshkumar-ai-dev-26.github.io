@@ -6,7 +6,7 @@ Built with vanilla HTML, CSS, and JavaScript — no build tools required. Hosted
 
 ## 🚀 Live Site
 
-**https://kamaleshkumar.github.io** ← (replace with your actual GitHub username)
+**https://kamaleshkumar-ai-dev-26.github.io** ← (replace with your actual GitHub username)
 
 ## 📁 Project Structure
 
